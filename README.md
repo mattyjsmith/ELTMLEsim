@@ -1,2 +1,2 @@
 # ELTMLEsim
-Code to simulate the data for the ELTMLE paper
+Code to run a small simulation study for comparing causal inference estimators.
