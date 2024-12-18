@@ -1,25 +1,28 @@
-******************************************************************************
-* Title: Illustration of ELTMLE command via a simulation
+*********************************************************************************
+* Title: A small simulation study to compare the performance of causal estimators
 * Author: Matthew J. Smith
-* Date: 12th March 2024
-******************************************************************************
+* Date: 18th December 2024
+*********************************************************************************
 
 
-/*
 
-NOTE! 
+* NOTE! 
+* This code relies on updates to the ELTMLE command that include cross-validation. 
+* Please ensure that you have the latest version of ELTMLE installed:
 
-This code relies on updates to the ELTMLE command that include cross-validation. 
-Please ensure that you have the latest version of ELTMLE installed. 
+* Install GitHub for Stata
+net install github, from("https://haghish.github.io/github/")
 
-*/
+* Install eltmle command
+github install migariane/eltmle 
 
 
 *****	
 * Change working directory
 *****
-	cd "YOUR WORKING DIRECTORY"
-	clear
+
+cd "YOUR WORKING DIRECTORY"
+clear
 
 	
 *****
